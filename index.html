@@ -1,25 +1,72 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>website name</title>
-    <link rel="stylesheet"type="text/css" href="website-css.css"/>
+    <title>Our Menu</title>
+    <link rel="stylesheet"type="text/css" href="style.css"/>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <style>
+    /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+    </style>
   </head>
 
 <body>
-  <div class="dropdown">
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-    <li><a href="#">Action</a></li>
-    <li><a href="#">Another action</a></li>
-    <li><a href="#">Something else here</a></li>
-  </ul>
+  <h1>Our Menu</h1>
+  <div class="row">
+  <div class="column">
+     <img class=”img-circle” src="C:\Users\Naomi\Documents\Coding_course\Team Burger\team-burger\regular_burger.jpg">
+  <h2>Original Burger</h2>
+  <p> Our original burger that's mega tasty! $7</p>
 </div>
-
-
-
-
+<div class="column">
+  <img class=”img-circle” src="C:\Users\Naomi\Documents\Coding_course\Team Burger\team-burger\cheese_burger.jpg">
+  <h2>Cheesy Burger</h2>
+  <p> Our original burger with cheese and bacon for extra yumminess! $8.50 </p>
+</div>
+<div class="column">
+  <img class=”img-circle” src="C:\Users\Naomi\Documents\Coding_course\Team Burger\team-burger\veggie_burger.jpg">
+  <h2>Veggie Bean Burger</h2>
+  <p> Tasty meat-free burger made with lots of beans for protein! $8.50 </p>
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <img class=”img-circle” src="C:\Users\Naomi\Documents\Coding_course\Team Burger\team-burger\vegan_burger.jpg">
+    <h2>NEW Vegan Burger</h2>
+    <p> BRAND NEW all vegan burger complete with vegan cheese! $9</p>
+  </div>
+  <div class="column">
+    <img class=”img-circle” src="C:\Users\Naomi\Documents\Coding_course\Team Burger\team-burger\spicy_burger.jpg">
+    <h2>Spicy Burger</h2>
+    <p> A sizzling burger that'll tingle the taste buds. Original burger with extra chilli for that kick! $8.50</p>
+  </div>
+  <div class="column">
+    <img class=”img-circle” src="C:\Users\Naomi\Documents\Coding_course\Team Burger\team-burger\double_burger.jpg">
+    <h2>Double Stacked Burger</h2>
+    <p> DOuble the deliciousness with this double stacked burger filled with cheesey goodness! $9.50</p>
+  </div>
+</div>
+<div id='social-buttons'>
+     <button class='btn-twitter'>Twitter</button>
+     <button class='btn-facebook'>Facebook</button>
+     <button class='btn-pinterest'>Pinterest</button>
+</div>
 </body>
 </html>
