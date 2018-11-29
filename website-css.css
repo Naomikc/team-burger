@@ -1,3 +1,29 @@
-.checked {
-    color:orange;
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+.box{
+       position: fixed;
+       top:70%;
+       right:50%;
+       transform: translate (-50%,-50%);
+       direction:rtl;
+}
+.box a{
+  font-size:40px;
+  color:#313131;
+  transition:0.3s all;
+}
+
+.box a:hover{
+  color: #f1c40f;
+}
+.b1:hover ~ a{
+  color:#f1c40f;
+}
+.b2:hover ~ a{
+  color:#f1c40f;
+}
+.b3:hover ~ a{
+  color:#f1c40f;
+}
+.b4:hover ~ a{
+  color:#f1c40f;
 }
