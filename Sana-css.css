@@ -21,7 +21,7 @@ p {
   text-align: center;
 }
   #description {
-    font-style: italic;
+    font-style: bold;
     font-size: 65px;
     font-family: monospace;
     color: rgb(245, 213, 181);
