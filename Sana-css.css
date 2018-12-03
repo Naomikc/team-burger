@@ -23,19 +23,19 @@ p {
   #description {
     font-style: italic;
     font-size: 65px;
-    font-family: cursive;
+    font-family: monospace;
     color: rgb(245, 213, 181);
   }
   #row {
     font-weight: bold;
     font-size: 65px;
-    font-family: serif;
+    font-family: monospace;
     color: rgb(245, 213, 181);
   }
   #aboutus {
     font-size: 50px;
     color: rgb(245, 213, 181);
-    font-family: serif;
+    font-family: monospace;
   }
 .topnav {
   background-color: #333;
