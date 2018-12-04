@@ -9,9 +9,7 @@ h1 {
   font-family: monospace;
   font-size: 50px;
   text-decoration: underline;
-  border: solid;
-  border-style: double;
-  border-width: thick;
+  color: gray;
 }
 img{
   width: 623px;
