@@ -1,5 +1,5 @@
 body {
-  background-color: #333
+  background-color: #34495e
   font-family: monospace;
 }
 .parallax {
@@ -16,7 +16,7 @@ h1 {
   text-decoration: underline;
   font-size: 70px;
   font-family: monospace;
-  color:rgb(245, 213, 181);
+  color:#e67e22;
 }
 p {
   text-align: center;
@@ -25,17 +25,17 @@ p {
     font-style: bold;
     font-size: 65px;
     font-family: monospace;
-    color: rgb(245, 213, 181);
+    color: #e67e22;
   }
   #row {
     font-weight: bold;
     font-size: 65px;
     font-family: monospace;
-    color: rgb(245, 213, 181);
+    color: #e67e22;
   }
   #aboutus {
     font-size: 50px;
-    color: rgb(245, 213, 181);
+    color: #e67e22;
     font-family: monospace;
   }
 .topnav {
