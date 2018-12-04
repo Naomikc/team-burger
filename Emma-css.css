@@ -1,11 +1,24 @@
+*{
+  font-family:monospace;
+}
 body {
   background-color: white;
-  font-family: monospace;
 }
 h1 {
-  font-size: 50px;
-  color: grey;
   text-align: center;
+  font-family: monospace;
+  font-size: 50px;
+  text-decoration: underline;
+  border: solid;
+  border-style: double;
+  border-width: thick;
+}
+img{
+  width: 623px;
+  width: 100%;
+  margin-top: -136px;
+  opacity: 0.6;
+  height: 200px;
 }
 p {
   text-align: center;
@@ -72,7 +85,7 @@ button{
   border-color: black;
   padding: 0.5em;
   margin-top: 2em;
-  margin-left: 47em;
+  margin-left: 20em;
 }
 .nameemail {
   text-align: center;
@@ -81,7 +94,6 @@ button{
 .topnav {
   background-color: #333;
   overflow: hidden;
-  font-family:monospace;
 }
 .topnav a {
   float: left;
@@ -89,7 +101,7 @@ button{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 17px
 }
 .topnav a:hover {
   background-color: #ddd;
@@ -112,7 +124,7 @@ button{
 .fa-facebook {
     background: #3B5998;
     color: white;
-    margin-left: 1000px;
+    margin-left: 120px;
     padding: 14px 9px 14px;
 }
 .fa-twitter {
