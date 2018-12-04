@@ -75,3 +75,35 @@ h1 {
     margin-left: 5px;
     padding: 14px 9px 14px;
 }
+.burger-sm{
+  position:absolute;
+  bottom:0px;
+  right:360px;
+  transform: translate(50%,50%);
+}
+
+.burger-sm a{
+  display:inline-flex;
+  width:40px;
+  height:40px;
+  color:blue;
+  margin:0 6px;
+  border-radius:50%;
+  justify-content: center;
+  align-items: center;
+  transition:0.4s;
+  font-size:30px;
+}
+
+.burger-sm a i{
+  transition:0.4 all;
+}
+.burger-sm a:hover{
+  background:#e67e22;
+}
+.buger-sm a i{
+  transition:0.4s all;
+}
+.burger-sm a:hover > i{
+  transform:scale(1.6)rotate(25deg);
+}
